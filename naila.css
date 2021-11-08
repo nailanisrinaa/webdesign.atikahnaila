@@ -1,0 +1,69 @@
+body{
+    background-color: bisque;
+}
+section{
+    width: 100%;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    background-color: cadetblue;
+    padding: 0px 5%;
+}
+nav ul{
+    padding: 40px;
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.dua{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 55px;
+    overflow: hidden;
+}
+.dua img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    color: rgba(22, 100, 94, 0.753);
+}
+.nela{
+    width: 200px;
+    position: absolute;
+    text-align: right;
+    top: 100px;
+    right: 40px;
+    color: rgba(22, 100, 94, 0.753);
+}
+h2{
+    text-decoration: underline;
+}
+.naila{
+    color: rgba(22, 100, 94, 0.753);
+}
+.video{
+    display: flex;
+}
+.web{
+    display: flex;
+    justify-content: space-around;
+}
